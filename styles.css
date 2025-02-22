@@ -27,3 +27,22 @@
     position: relative;
     z-index: 2;
 }
+/* Carousel Specialties Section */
+.carousel-caption {
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+}
+#specialtiesCarousel .carousel-item {
+    height: 400px; /* Adjust height as needed */
+}
+
+#specialtiesCarousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensures images fill the space properly */
+}
