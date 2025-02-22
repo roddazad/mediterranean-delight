@@ -1,0 +1,29 @@
+/* Navbar */
+.navbar-brand {
+    font-size: 1.2rem;
+}
+
+/* Hero Section with Overlay */
+.hero {
+    background: url('./Assets/pictures/hero-image.jpg') center/cover no-repeat;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+.hero h1 {
+    position: relative;
+    z-index: 2;
+}
