@@ -73,3 +73,76 @@ footer {
     padding: 15px 0;
 }
 
+/* about.html */
+#about{
+    background: url('./Assets/pictures/about-hero.jpg') center/cover no-repeat;
+    height: 75vh;
+}
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    background: rgba(0,0,0,0.5);
+}
+.about-img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team h4 {
+    margin-top: 10px;
+    color: #5a3e1b;
+}
+
+.team p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* menu.html */
+#menu{
+    background: url('./Assets/pictures/menu-hero.jpg') center/cover no-repeat;
+    height: 75vh;
+}
+#menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    background: rgba(0,0,0,0.5);
+}
+.menu-category {
+    background: #e1c699; /* Mediterranean warm color */
+    color: #5a3e1b;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+    background: #fff8e7;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.menu-img {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
